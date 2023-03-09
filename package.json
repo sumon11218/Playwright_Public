@@ -1,0 +1,16 @@
+{
+  "name": "playwright_jan2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "googleTestsHeaded": "npx playwright test /tests/GoogleSearchPOM.spec.ts --headed",
+    "googleTestsHeadless": "npx playwright test /tests/GoogleSearchPOM.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.31.2"
+  }
+}

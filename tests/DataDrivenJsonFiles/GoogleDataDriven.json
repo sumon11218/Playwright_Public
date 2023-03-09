@@ -1,0 +1,53 @@
+{
+    "tests":[
+      {
+        "name" : "Choose a car",
+        "userParameters" :
+        {
+          "keyValue": "BMW"
+        }
+      },
+      {
+        "name" : "Choose a sport",
+        "userParameters" :
+        {
+          "keyValue": "Cricket"
+        }
+      },
+      {
+        "name" : "Choose a County",
+        "userParameters" :
+        {
+          "keyValue": "USA"
+        }
+      },
+      {
+        "name" : "Choose a location",
+        "userParameters" :
+        {
+          "keyValue": "Disney"
+        }
+      },
+      {
+        "name" : "Choose a gym",
+        "userParameters" :
+        {
+          "keyValue": "Blink"
+        }
+      },
+      {
+        "name" : "Choose an entertainment",
+        "userParameters" :
+        {
+          "keyValue": "Music"
+        }
+      },
+      {
+        "name" : "Choose a mountain",
+        "userParameters" :
+        {
+          "keyValue": "Mount Everest"
+        }
+      }
+    ]
+  }
