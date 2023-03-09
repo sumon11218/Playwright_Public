@@ -7,6 +7,10 @@
     "googleTestsHeaded": "npx playwright test /tests/GoogleSearchPOM.spec.ts --headed",
     "googleTestsHeadless": "npx playwright test /tests/GoogleSearchPOM.spec.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumon11218/PlaywrightAutomation.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
