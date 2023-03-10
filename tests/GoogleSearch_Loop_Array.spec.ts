@@ -23,7 +23,7 @@ test('Capture Google Search Result', async ({ page }) => {
         await page.locator("xpath=//*[@name='btnK']").nth(0).click({timeout: 10000})
 
         //capture the text and print out the number
-        let result = await page.locator("xpath=//*[@id='result-stats']").textContent({timeout: 10000})
+        let result = await page.locator("xpath=//*[@id='result-stat']").textContent({timeout: 3000})
         //to print we use console.log
         console.log("Result: " + result)
         //split the number
