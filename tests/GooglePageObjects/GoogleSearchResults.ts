@@ -6,7 +6,7 @@ export class GoogleSearchResults {
 
   constructor(page: Page) {
     this.page = page;
-    this.searchText = page.locator('xpath=//*[@id="result-stats"]');
+    this.searchText = page.locator('xpath=//*[@id="result-stat"]');
   }
 
   async getSearchNumber(keyValue: string) {
