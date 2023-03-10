@@ -10,7 +10,7 @@ export class GoogleSearchResults {
   }
 
   async getSearchNumber(keyValue: string) {
-    let result = await this.searchText.textContent({timeout: 10000})
+    let result = await this.searchText.textContent({timeout: 2500})
     let arrayResult = result.split(' ')
     console.log("The search number for " + keyValue + " is " + arrayResult[1])
   }//end of searchForAKeywordAndSubmit
