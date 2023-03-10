@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "googleTestsHeaded": "npx playwright test /tests/GoogleSearchPOM.spec.ts --headed",
-    "googleTestsHeadless": "npx playwright test /tests/GoogleSearchPOM.spec.ts"
+    "googleTestsHeadless": "npx playwright test /tests/GoogleSearchPOM.spec.ts",
+    "showReport": "npx playwright show-report"
   },
   "repository": {
     "type": "git",
