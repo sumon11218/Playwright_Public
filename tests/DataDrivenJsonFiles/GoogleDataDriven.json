@@ -34,20 +34,6 @@
         {
           "keyValue": "Blink"
         }
-      },
-      {
-        "name" : "Choose an entertainment",
-        "userParameters" :
-        {
-          "keyValue": "Music"
-        }
-      },
-      {
-        "name" : "Choose a mountain",
-        "userParameters" :
-        {
-          "keyValue": "Mount Everest"
-        }
       }
     ]
   }
