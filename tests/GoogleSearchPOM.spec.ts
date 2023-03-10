@@ -19,7 +19,7 @@ for(let suite of combined){
              let URL = 'https://www.google.com'
              await googleHome.searchForAKeywordAndSubmit(URL,userValue)
              await googleSearchResults.getSearchNumber(userValue)
-             //testing
+             //testing one
         })//end of test
     }//end of sub loop
 }//end of main loop
