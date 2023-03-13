@@ -18,6 +18,10 @@ for(let suite of combined){
 
              let URL = 'https://www.google.com'
              await googleHome.searchForAKeywordAndSubmit(URL,userValue)
+             /*
+                passing the user value on getSearchNumber so when it prints the number, it will also display which value 
+                it's printing the number for
+            */
              await googleSearchResults.getSearchNumber(userValue)
              //testing one
         })//end of test
