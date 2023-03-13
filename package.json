@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "firefox:googleSearch": "npx playwright test /tests/GoogleSearchPOM.spec.ts --workers=1 --project=firefox --reporter=html",
     "googleTestsHeaded": "npx playwright test /tests/GoogleSearchPOM.spec.ts --headed",
-    "googleTestsHeadless": "npx playwright test /tests/GoogleSearchPOM.spec.ts --reporter=html",
+    "chrome:googleSearch": "npx playwright test /tests/GoogleSearchPOM.spec.ts --workers=1 --project=chromium --reporter=html",
     "showReport": "npx playwright show-report"
   },
   "repository": {
