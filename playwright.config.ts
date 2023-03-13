@@ -1,5 +1,7 @@
 import { defineConfig, devices } from '@playwright/test';
 
+
+
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
@@ -10,6 +12,7 @@ import { defineConfig, devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
+  reporter: [['html', { outputFolder: 'my-report' }]],
   testDir: './tests',
   /* Maximum time one test can run for. */
   timeout: 30 * 1000,
