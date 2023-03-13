@@ -4,10 +4,13 @@ import { test, expect } from '@playwright/test';
 //setup my test function which is similar to using @Test annotation in testNG
 test('Capture Google Search Result', async ({ page }) => {
 
+
     //declare the arraylist
     let cars = ["Honda","Nissan"]
     cars.push("BMW")
     cars.push("Lexus")
+
+  
 
     for(let i = 0; i < cars.length; i++){
         //navigate to google home
