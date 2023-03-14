@@ -23,7 +23,7 @@ for(let suite of combined){
                 it's printing the number for
             */
              await googleSearchResults.getSearchNumber(userValue)
-             //testing one two
+             //testing one three
         })//end of test
     }//end of sub loop
 }//end of main loop
