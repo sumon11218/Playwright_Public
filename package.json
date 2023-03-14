@@ -1,10 +1,12 @@
 {
+  
   "name": "playwright_jan2023",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  
   "scripts": {
-    "firefox:googleSearch": "npx playwright test /tests/GoogleSearchPOM.spec.ts --workers=1 --project=firefox --reporter=html",
+    "firefox:googleSearch": "npx playwright test /tests/GoogleSearchPOM.spec.ts --workers=3 --project=firefox --reporter=html",
     "googleTestsHeaded": "npx playwright test /tests/GoogleSearchPOM.spec.ts --headed",
     "chrome:googleSearch": "npx playwright test /tests/GoogleSearchPOM.spec.ts --workers=1 --project=chromium --reporter=html",
     "showReport": "npx playwright show-report"
