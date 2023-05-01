@@ -41,6 +41,13 @@
         {
           "keyValue": "USA"
         }
+      },
+      {
+        "name" : "Choose a City",
+        "userParameters" :
+        {
+          "keyValue": "Brooklyn"
+        }
       }
     ]
   }
