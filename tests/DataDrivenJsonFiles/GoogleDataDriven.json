@@ -34,6 +34,13 @@
         {
           "keyValue": "Blink"
         }
+      },
+      {
+        "name" : "Choose a Country",
+        "userParameters" :
+        {
+          "keyValue": "USA"
+        }
       }
     ]
   }
