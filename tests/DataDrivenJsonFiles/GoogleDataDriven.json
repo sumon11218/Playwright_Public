@@ -69,6 +69,13 @@
         {
           "keyValue": "Nike"
         }
+      },
+      {
+        "name" : "Choose a Sneaker",
+        "userParameters" :
+        {
+          "keyValue": "Running Shoes"
+        }
       }
     ]
   }
