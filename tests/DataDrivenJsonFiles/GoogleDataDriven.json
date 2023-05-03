@@ -46,7 +46,14 @@
         "name" : "Choose a Mountain",
         "userParameters" :
         {
-          "keyValue": "Himalaya Mountain"
+          "keyValue": "Himalaya"
+        }
+      },
+      {
+        "name" : "Choose a Hobby",
+        "userParameters" :
+        {
+          "keyValue": "Kayaking"
         }
       }
     ]
