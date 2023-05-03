@@ -55,6 +55,20 @@
         {
           "keyValue": "Kayaking"
         }
+      },
+      {
+        "name" : "Choose a Fruite",
+        "userParameters" :
+        {
+          "keyValue": "Orange"
+        }
+      },
+      {
+        "name" : "Choose a Brand",
+        "userParameters" :
+        {
+          "keyValue": "Nike"
+        }
       }
     ]
   }
