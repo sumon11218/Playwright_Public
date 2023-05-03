@@ -36,17 +36,17 @@
         }
       },
       {
-        "name" : "Choose a Country",
-        "userParameters" :
-        {
-          "keyValue": "USA"
-        }
-      },
-      {
-        "name" : "Choose a City",
+        "name" : "Choose a New York Borough",
         "userParameters" :
         {
           "keyValue": "Brooklyn"
+        }
+      },
+      {
+        "name" : "Choose a Mountain",
+        "userParameters" :
+        {
+          "keyValue": "Himalaya"
         }
       }
     ]
