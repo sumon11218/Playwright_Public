@@ -15,7 +15,7 @@
         }
       },
       {
-        "name" : "Choose a County",
+        "name" : "Choose a Country",
         "userParameters" :
         {
           "keyValue": "USA"
