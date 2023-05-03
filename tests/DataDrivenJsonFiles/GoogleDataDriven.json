@@ -1,14 +1,14 @@
 {
     "tests":[
       {
-        "name" : "Choose a car",
+        "name" : "Choose a Car",
         "userParameters" :
         {
           "keyValue": "BMW"
         }
       },
       {
-        "name" : "Choose a sport",
+        "name" : "Choose a Sport",
         "userParameters" :
         {
           "keyValue": "Cricket"
@@ -22,14 +22,14 @@
         }
       },
       {
-        "name" : "Choose a location",
+        "name" : "Choose a Location",
         "userParameters" :
         {
           "keyValue": "Disney"
         }
       },
       {
-        "name" : "Choose a gym",
+        "name" : "Choose a Gym",
         "userParameters" :
         {
           "keyValue": "Blink"
@@ -57,7 +57,7 @@
         }
       },
       {
-        "name" : "Choose a Fruite",
+        "name" : "Choose a Fruit",
         "userParameters" :
         {
           "keyValue": "Orange"
