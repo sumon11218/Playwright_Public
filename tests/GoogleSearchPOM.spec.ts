@@ -1,6 +1,6 @@
 import { test, expect, chromium, Page } from '@playwright/test';
-import { GoogleHome } from './GooglePageObjects/GoogleHome'
-import { GoogleSearchResults } from './GooglePageObjects/GoogleSearchResults'
+import { GoogleHome } from './PageObjects/GooglePageObjects/GoogleHome'
+import { GoogleSearchResults } from './PageObjects/GooglePageObjects/GoogleSearchResults'
 import {arrayValue} from './DataDrivenJsonFiles/combined'
 
 
