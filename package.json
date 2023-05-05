@@ -12,7 +12,7 @@
     "googleSearchTestFirefox": "npx playwright test /tests/GoogleSearchPOM.spec.ts --workers=1 --project=firefox --reporter=html",
     "googleTestsHeaded": "npx playwright test /tests/GoogleSearchPOM.spec.ts --headed",
     "showReport": "npx playwright show-report",
-    "noteTakerApiTest": "npx playwright test /tests/noteApiTest.spec.ts --workers=1 --project=chromium --reporter=html"
+    "noteTakerTest": "npx playwright test /tests/noteTakerTest.spec.ts --headed --workers=1 --reporter=html --project chromium"
   },
   "repository": {
     "type": "git",

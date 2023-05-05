@@ -37,5 +37,22 @@ export class NoteTakerAPI {
       return Promise.resolve(response.json());
     }//end of deleteNote
 
+    async updateNewNote(noteId: any, noteTitle: any, noteText: any): Promise<JSON> {
+      const context = await request.newContext();
+      const response = await context.put('https://fk-note-taker.herokuapp.com/api/notes/'+noteId, {
+        headers: {
+        "Content-Type": "application/json",
+        "Cache-Control": "no-cache"
+        },
+        data: {        
+          "title": noteTitle,
+          "text": noteText
+        }
+      })//end of post
+      //console.log("Response: " + JSON.stringify(response));
+      expect(response.status()).toBe(200)
+      return Promise.resolve(response.json());
+    }//end of updateNewNote
+
 
 }//end of class
