@@ -83,6 +83,13 @@
         {
           "keyValue": "QA Automation Engineer"
         }
+      },
+      {
+        "name" : "Choose a US State",
+        "userParameters" :
+        {
+          "keyValue": "New York"
+        }
       }
     ]
   }
