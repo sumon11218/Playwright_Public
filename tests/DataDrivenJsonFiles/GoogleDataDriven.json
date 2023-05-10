@@ -76,6 +76,13 @@
         {
           "keyValue": "Running Shoes"
         }
+      },
+      {
+        "name" : "Choose an IT career",
+        "userParameters" :
+        {
+          "keyValue": "QA Automation Engineer"
+        }
       }
     ]
   }

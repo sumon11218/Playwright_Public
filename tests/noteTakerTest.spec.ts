@@ -35,7 +35,6 @@ test.describe.serial("Note Taker Test Scenarios", () => {
         await page.goto('https://fk-note-taker.herokuapp.com/notes')
         expect(await page.locator("//span[text()='"+newTitleName+"']")).toBeVisible({timeout: 5000})
         console.log("Note: " , newTitleName ," appears on the ui")
-        //test
         await page.waitForTimeout(5000)
     })//end of test 2
 
