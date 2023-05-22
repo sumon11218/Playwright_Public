@@ -8,7 +8,7 @@
   "scripts": {
     "firefox:googleSearch": "npx playwright test /tests/GoogleSearchPOM.spec.ts --workers=3 --project=firefox --reporter=html",
     "chrome:googleSearch": "npx playwright test /tests/GoogleSearchPOM.spec.ts --workers=3 --headed --project=chromium --reporter=html",
-    "googleSearchTestChrome": "npx playwright test /tests/GoogleSearchPOM.spec.ts --workers=1 --project=chromium --reporter=html",
+    "googleSearchTestChrome": "npx playwright test /tests/GoogleSearchPOM.spec.ts --workers=1 --project=edge --reporter=html",
     "googleSearchTestFirefox": "npx playwright test /tests/GoogleSearchPOM.spec.ts --workers=1 --project=firefox --reporter=html",
     "googleTestsHeaded": "npx playwright test /tests/GoogleSearchPOM.spec.ts --headed",
     "showReport": "npx playwright show-report",
