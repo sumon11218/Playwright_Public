@@ -15,14 +15,13 @@
     "noteTakerTest": "npx playwright test /tests/noteTakerTest.spec.ts --headed --workers=1 --reporter=html --project chromium",
     "grubHubTestChrome": "npx playwright test /tests/GrubhubDataDriven.spec.ts --headed --workers=1 --project=chromium --reporter=html",
     "transformersTest": "npx playwright test /tests/Transformers.spec.ts --headed --workers=1 --project=chromium --reporter=html",
-    "appleMusicTest": "npx playwright test /tests/AppleMusic.spec.ts --headed --workers=1 --project=chromium --reporter=html"
+    "appleMusicTest": "npx playwright test /tests/AppleMusic.spec.ts --headed --workers=1 --project=edge --reporter=html"
 
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sumon11218/PlaywrightAutomation.git"
-  },
-  "keywords": [],
+  },  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {

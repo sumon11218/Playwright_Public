@@ -2,13 +2,7 @@ import { test, expect, chromium } from '@playwright/test';
 
 
 //setup my test function which is similar to using @Test annotation in testNG
-test('Choose a music on apple music website', async () => {
-
-    const browser = await chromium.launch({
-        channel: 'chrome',
-    });
-    const context = await browser.newContext();
-    let page = await context.newPage();
+test('Choose a music on apple music website', async ({page}) => {
 
     let timeLimit = 6000
 

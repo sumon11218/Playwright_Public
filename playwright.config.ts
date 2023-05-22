@@ -52,18 +52,26 @@ export default defineConfig({
       use: { ...devices['Desktop Chrome'] },
     },
 
-  
-  {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
-  },
+    {
+        name: 'firefox',
+        use: { ...devices['Desktop Firefox'] },
+    },
 
-/*
+    {
+      name: 'chrome',
+      use: { channel: 'chrome' },
+    },
+
     {
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
     },
-*/
+
+    {
+      name: 'edge',
+      use: { channel: 'msedge' },
+    },
+
     /* Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',
@@ -75,14 +83,7 @@ export default defineConfig({
     // },
 
     /* Test against branded browsers. */
-    // {
-    //   name: 'Microsoft Edge',
-    //   use: { channel: 'msedge' },
-    // },
-    // {
-    //   name: 'Google Chrome',
-    //   use: { channel: 'chrome' },
-    // },
+    
   ],
 
   /* Folder for test artifacts such as screenshots, videos, traces, etc. */
