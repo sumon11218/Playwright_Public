@@ -90,6 +90,13 @@
         {
           "keyValue": "New York"
         }
+      },
+      {
+        "name" : "Choose a California city",
+        "userParameters" :
+        {
+          "keyValue": "Los Angeles"
+        }
       }
     ]
   }
