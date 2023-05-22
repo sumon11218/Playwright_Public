@@ -97,6 +97,27 @@
         {
           "keyValue": "Los Angeles"
         }
+      },
+      {
+        "name" : "Choose a South Asian Country",
+        "userParameters" :
+        {
+          "keyValue": "Bangladesh"
+        }
+      },
+      {
+        "name" : "Choose an NBA team",
+        "userParameters" :
+        {
+          "keyValue": "Lakers"
+        }
+      },
+      {
+        "name" : "Choose an NBA player",
+        "userParameters" :
+        {
+          "keyValue": "Kobe Bryant"
+        }
       }
     ]
   }
