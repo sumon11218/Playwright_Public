@@ -42,7 +42,7 @@ test('View upcoming Transformers movie', async ({ page }) => {
    await page.mouse.wheel(0,900)
    await page.locator('//*[contains(text(),"Bumblebee") and contains(text(),"Music Mix")]').nth(1).click({timeout: timeLimit})
    await page.waitForTimeout(7000)
-   await page.locator('//div[@id="TRFBB_modeNormal" and @data-mode="normal"]').click({timeout: 50000})
+   await page.locator('//div[@data-action="openHowToPlay"]').click({timeout: 50000})
 
    
    await page.waitForTimeout(20000)
