@@ -9,14 +9,14 @@
     "firefox:googleSearch": "npx playwright test /tests/GoogleSearchPOM.spec.ts --workers=3 --project=firefox --reporter=html",
     "chrome:googleSearch": "npx playwright test /tests/GoogleSearchPOM.spec.ts --workers=3 --headed --project=chromium --reporter=html",
     "googleSearchTestChrome": "npx playwright test /tests/GoogleSearchPOM.spec.ts --workers=1 --project=chrome --reporter=html",
-    "googleSearchTestFirefox": "npx playwright test /tests/GoogleSearchPOM.spec.ts --workers=1 --project=edge --reporter=html",
+    "googleSearchTestFirefox": "npx playwright test /tests/GoogleSearchPOM.spec.ts --workers=1 --project=firefox --reporter=html",
     "googleTestsHeaded": "npx playwright test /tests/GoogleSearchPOM.spec.ts --headed",
     "showReport": "npx playwright show-report",
     "noteTakerTest": "npx playwright test /tests/noteTakerTest.spec.ts --headed --workers=1 --reporter=html --project chromium",
     "grubHubTestChrome": "npx playwright test /tests/GrubhubDataDriven.spec.ts --headed --workers=1 --project=chromium --reporter=html",
     "transformersTest": "npx playwright test /tests/Transformers.spec.ts --headed --workers=1 --project=chromium --reporter=html",
-    "appleMusicTest": "npx playwright test /tests/AppleMusic.spec.ts --headed --workers=1 --project=edge --reporter=html"
-
+    "appleMusicTest": "npx playwright test /tests/AppleMusic.spec.ts --headed --workers=1 --project=edge --reporter=html",
+    "xboxTest": "npx playwright test /tests/MS_Xbox_Test.spec.ts --headed --workers=1 --project=edge --reporter=html"
   },
   "repository": {
     "type": "git",
