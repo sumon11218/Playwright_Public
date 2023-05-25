@@ -8,6 +8,13 @@
         }
       },
       {
+        "name" : "Choose a Sport",
+        "userParameters" :
+        {
+          "keyValue": "Cricket"
+        }
+      },
+      {
         "name" : "Choose a Country",
         "userParameters" :
         {
